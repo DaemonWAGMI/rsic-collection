@@ -1,0 +1,22 @@
+{
+  "name": "rsic-collection",
+  "description": "RSIC collection tools and data",
+  "engines": {
+    "node": "18.16.0"
+  },
+  "scripts": {
+    "generate-csv": "node ./src/bin/generate-csv.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaemonWAGMI/rsic-collection"
+  },
+  "author": "DaemonWAGMI",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/DaemonWAGMI/rsic-collection/issues"
+  },
+  "dependencies": {
+    "csv-stringify": "^6.4.5"
+  }
+}
